@@ -1,0 +1,14 @@
+The best state for hospital-based care was California (avg score 67.88), followed closely by Rhode Island (67.86) and New Jersey (67.74). The ranking is based on the same methodology as best hospitals, aggregated over the entire state.
+6 out of the top 10 hospitals are located in the Northeast, between the Washington-New York-Boston corridor.
+
+STATE	NUM_HOSPITALS	AVG_SCORE
+CA	332	67.88220129712528
+RI	11	67.86111110685364
+NJ	64	67.74157485723187
+DE	6	67.32542374416933
+HI	18	67.26810344375413
+DC	8	66.96249999034973
+VA	80	66.73926808142987
+MA	61	66.71911597495084
+FL	181	66.51619035671179
+NY	169	66.4673308459273

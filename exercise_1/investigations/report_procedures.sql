@@ -1,0 +1,13 @@
+
+DROP TABLE REPORT_PROCEDURES;
+CREATE TABLE REPORT_PROCEDURES AS
+SELECT
+t1.MEASURE_ID,
+t1.MEASURE_NAME,
+avg(case when t2.score > 100 then 100 else t2.score end) as avg_score,
+variance(case when t2.score > 100 then 100 else t2.score end) as var_score
+FROM RECENT_MEASURE t1
+INNER JOIN MEASURE t2
+on t1.MEASURE_ID = t2.MEASURE_ID
+GROUP BY t1.MEASURE_ID,t1.MEASURE_NAME
+ORDER BY VAR_SCORE DESC;

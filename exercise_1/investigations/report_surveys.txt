@@ -1,0 +1,17 @@
+The Pearson Correlation Coefficient between AVG_SCORE (based on Effective Care & Readmission Rates) and SURVEY_SCORE is 0.22, which is a medium-sized effect. This suggests that there is a medium-sized positive relationship between survey results and official ratings; however, this is not a completely deterministic relationship. As is obvious from the below table, some top hospitals did not receive excellent survey results.
+
+Also, notice that survey data is not available for our top hospitals; only survey data from 8/2015 was used, and we did an inner join.
+
+Note: pcorr was computed by submitting the following Hive query: SELECT CORR(AVG_SCORE,SURVEY_SCORE) as PCORR FROM SURVEY_CORR;
+
+PROVIDER_ID	HOSPITAL_NAME	AVG_SCORE	SURVEY_SCORE
+50070	KAISER FOUNDATION HOSPITAL - SOUTH SAN FRANCISCO	94.52413792445742	4.0
+340148	NOVANT HEALTH MEDICAL PARK HOSPITAL	92.6083333492279	10.0
+50723	KAISER FOUNDATION HOSPITAL - BALDWIN PARK	92.33103449591275	6.0
+50137	KAISER FOUNDATION HOSPITAL - PANORAMA CITY	91.69655171756087	6.0
+50697	PATIENTS' HOSPITAL OF REDDING	91.47499998410542	10.0
+50561	KAISER FOUNDATION HOSPITAL - WEST LA	90.86206896551724	4.0
+110233	SOUTHEASTERN REGIONAL MEDICAL CENTER	90.67142854418073	10.0
+50710	KAISER FOUNDATION HOSPITAL - FRESNO	90.58965518556792	6.0
+50510	KAISER FOUNDATION HOSPITAL	90.36000000635782	3.0
+50686	KAISER FOUNDATION HOSPITAL, RIVERSIDE	90.31000000635782	4.0

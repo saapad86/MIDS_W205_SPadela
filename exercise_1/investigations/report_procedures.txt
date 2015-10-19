@@ -1,0 +1,13 @@
+Procedures with the greatest variability include ED2, Head CT results, and Thrombolytic therapy. These results were obtained by computing the variance of various measures (including both procedures as well as efficiency metrics).
+ 
+MEASURE_ID	MEASURE_NAME	AVG_SCORE	VAR_SCORE
+ED_2b	ED2	77.40845070422536	603.0148294191704
+OP_23	Head CT results	67.6795407098121	491.03404905836334
+STK_4	Thrombolytic Therapy	84.4778156996587	438.57260228230206
+OP_3b	Median Time to Transfer to Another Facility for Acute Coronary Intervention	57.41204819277108	432.99889098562903
+OP_2	Fibrinolytic Therapy Received Within 30 Minutes of ED Arrival	70.5945945945946	340.6734842951059
+HF_1	Discharge instructions	88.20934256055364	318.8264179068735
+OP_21	Median time to pain med	55.1168667087808	283.3533668091447
+CAC_3	Home Management Plan of Care Document	89.50387596899225	271.040682651283
+OP_20	Door to diagnostic eval	28.077637889688248	270.1855191206748
+IMM_3_OP_27_FAC_ADHPCT	Healthcare workers given influenza vaccination	83.15210267613325	228.29718154270665

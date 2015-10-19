@@ -1,0 +1,17 @@
+Based on the CMS effective care & readmissions data, Univ. of MD Rehab & Orthopaedic Institute is the best hospital in the country (13 scores, Average Rating: 100 out of 100).
+7 out of the top 10 hospitals in the country were Children's hospitals, and 6 out of the 7 were non-profit entities.
+The ranking is based on an aggregation of Timely & Effective Care as well as Readmissions measures. All measures available were considered with equal weighting; for each measure, only the most recent set of scores were taken. Finally, scores were capped at 100 to enable comparisons.
+ 
+
+
+PROVIDER_ID	HOSPITAL_NAME	STATE	TYPE_CD	OWNER_TYPE_CD	EMERGENCY_CD	NUM_SCORES	AVG_SCORE
+210058	UNIV OF MD REHABILITATION &  ORTHOPAEDIC INSTITUTE	MD	Acute Care Hospitals	Voluntary non-profit - Private	No	13	100.0
+453301	DRISCOLL CHILDRENS HOSPITAL	TX	Childrens	Voluntary non-profit - Other	Yes	52	99.0
+233300	CHILDREN'S HOSPITAL OF MICHIGAN	MI	Childrens	Proprietary	Yes	52	99.0
+463301	PRIMARY CHILDRENS HOSPITAL	UT	Childrens	Voluntary non-profit - Private	Yes	52	99.0
+53309	MILLER CHILDREN'S HOSPITAL	CA	Childrens	Voluntary non-profit - Other	Yes	52	99.0
+53302	CHILDREN'S HOSP OF LOS ANGELES	CA	Childrens	Voluntary non-profit - Private	Yes	52	98.33333333333333
+393303	CHILDREN'S HOSPITAL OF PHILADELPHIA	PA	Childrens	Voluntary non-profit - Private	Yes	52	98.0
+250127	CHOCTAW HEALTH CENTER	MS	Acute Care Hospitals	Government - Federal	Yes	49	98.0
+430093	SAME DAY SURGERY CENTER LLC	SD	Acute Care Hospitals	Proprietary	No	61	98.0
+73300	CONNECTICUT CHILDRENS MEDICAL CENTER	CT	Childrens	Voluntary non-profit - Private	Yes	52	98.0
